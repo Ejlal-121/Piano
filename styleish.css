@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+}
+
+.piano {
+    display: flex;
+  gap: 10px;
+    justify-content: center;
+}
+
+
+.key {
+    width: 70px;
+    height: 200px;
+    background-color: aliceblue;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.key.active {
+    background: gold;
+    transform: translateY(3px);
+}
